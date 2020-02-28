@@ -18,8 +18,8 @@ class Serie extends Model
         $this->attributes['nome'] = mb_strtoupper($nome);
     }*/
 
-    public function getNomeAttribute($nome): string
+    /*public function getNomeAttribute($nome): string
     {
         return mb_strtoupper($nome);
-    }
+    }*/
 }
